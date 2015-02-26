@@ -51,9 +51,15 @@ You tell Machinist how to do this with blueprints:
 
 ## Installation
 
-### Upgrading from Machinist 1
+### Rails 4
 
-See [the wiki](http://wiki.github.com/notahat/machinist/machinist-2).
+Follow the same steps as the Rails 3, but please uncomment the below line at `rails_helper.rb` if using `rspec-rails gem`.
+
+    Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+
+Or just require the blueprint file at `spec_helper.rb`.
+
+    require 'support/blueprints.rb'
 
 ### Rails 3
 
