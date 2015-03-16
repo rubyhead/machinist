@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.name     = "machinist"
   s.version  = Machinist::VERSION
   s.platform = Gem::Platform::RUBY
-  s.authors  = ["Pete Yandell"]
-  s.email    = ["pete@notahat.com"]
-  s.homepage = "http://github.com/notahat/machinist"
+  s.authors  = ["Pete Yandell", "Joon You"]
+  s.email    = ["joon@joonworld.net"]
+  s.homepage = "http://github.com/rubyhead/machinist"
   s.summary  = "Fixtures aren't fun. Machinist is."
 
   s.rubyforge_project = "machinist"

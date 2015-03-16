@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    machinist (2.0)
+    machinist (2.0.1)
 
 GEM
   remote: http://rubygems.org/

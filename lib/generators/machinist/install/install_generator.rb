@@ -31,11 +31,11 @@ module Machinist
     private
 
       def rspec?
-        options[:test_framework].to_sym == :rspec
+        Dir.exists?("spec")
       end
 
       def test_unit?
-        options[:test_framework].to_sym == :test_unit
+        Dir.exists?("test")
       end
 
       def cucumber?
